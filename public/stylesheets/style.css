@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+};
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    
+}
+
+.backgroundImg {
+    background-image: url("/images/vilanovaCapa.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alignInXspaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alignInY { 
+    display: flex;
+    flex-direction: column;
+}
+
+.alignInYcenter { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alignInX {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallPadding {
+    padding: 25px;
+}
+
+div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    width: 95vw;
+    height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+h1, h3, h4 {
+    color: white;
+}
+
+label {
+    color:black;
+}
+
+p {
+    padding: 50px;
+    width: 90vw;
+    color:white;
+    text-shadow: 0.5px 0.5px black ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+li, a {
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+hr {
+    width: 75vw;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
